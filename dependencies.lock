@@ -1,0 +1,20 @@
+dependencies:
+  espressif/esp-zigbee-lib:
+    component_hash: d508f9b91c4b1973e6563fe840923fad2f15b23637f3d743dba1f5a719e1baab
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.0.4
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+direct_dependencies:
+- espressif/esp-zigbee-lib
+manifest_hash: 0f8b81efb7d9043e6a8a1002372a995a75925f8f76709c1dc01939634b729be8
+target: esp32c6
+version: 2.0.0
